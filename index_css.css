@@ -1,0 +1,207 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nombre {
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+.prof {
+    margin-top: 0%;
+    color: #e33434;
+}
+
+.img {
+    width: 78%;
+    height: 78%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #000000;
+    font-family: 'Glory', sans-serif;
+}
+
+#arriba {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#arriba:hover {    
+    color: #1cd68c;
+}
+
+.easy {
+    margin-top: 5%;
+}
+
+.responsive {
+    margin-bottom: 10%;
+}
+
+.primerHr {
+    margin-bottom: 4%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 130%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 130%;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 130%;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 130%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.obj {
+    width: 50%;
+    margin-top: 3%;
+}
+
+p {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.infoPorque {
+    padding-bottom: 3%;
+}
+
+.formConsulta {
+    text-align: center;
+    font-size: 130%;
+}
+
+.datos {
+    font-size: 100%;
+    margin-top: 1%;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boton {
+    margin-top: 1%;
+    width: 40%;
+    font-size: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Glory', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+        height: 99vh;
+        margin: 0%;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .prof {
+        margin-top: 4%;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr;   
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 150%;
+    }    
+    }
+
+    .img {
+        margin-top: 10%;
+    }
+
+    #imgDoss {
+        margin-top: 10%;
+    }
+
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 150%;
+    }
+
+    .responsive {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 8%;
+        padding-left: 8%;
+        font-size: 150%;
+    }
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 150%;
+    }
+
+    .boton {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .juntos {
+        margin-bottom: 5%;
+    }
+
+    .datos {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    }
